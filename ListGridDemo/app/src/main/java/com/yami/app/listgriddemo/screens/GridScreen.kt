@@ -36,7 +36,7 @@ fun GridScreen(drawerState: DrawerState,
             modifier = Modifier.fillMaxSize().padding(padding)
         ) {
             items(listItems) { item ->
-                SmallListItem(title = item.title, description = item.description, imageUrl = item.image, isShowOnlyImage = true)
+                SmallListItem(title = item.title, description = item.description, imageUrl = item.image)
             }
         }
     }
