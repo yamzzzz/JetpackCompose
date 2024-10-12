@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.yami.app.permissionrequestdemo"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.yami.app.permissionrequestdemo"
         minSdk = 28
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
